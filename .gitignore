@@ -7,3 +7,4 @@ target
 .faces-config.xml.jsfdia
 .idea/
 *.iml
+atlassian-ide-plugin.xml

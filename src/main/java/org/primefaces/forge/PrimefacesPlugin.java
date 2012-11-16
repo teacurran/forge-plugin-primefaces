@@ -195,7 +195,7 @@ public class PrimefacesPlugin implements Plugin {
     }
 
     private String getPrimefacesThemeVersion(PrimefacesFacet somePrimefacesFacet) {
-        String version = "1.0.2"; // For the 3.0 versions
+        String version = "1.0.8"; // For the 3.0 versions
         if (somePrimefacesFacet.getVersion().getVersion() == 2) {
             version = "1.0.1";
         }

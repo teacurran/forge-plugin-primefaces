@@ -32,8 +32,10 @@ import java.util.List;
 public enum PrimefacesVersion {
     PRIMEFACES_2_2_1("Primefaces 2.2.1", Arrays.asList(DependencyBuilder.create("org.primefaces:primefaces:2.2.1")),
             2),
-    PRIMEFACES_3_0("Primefaces 3.0",
-            Arrays.asList(DependencyBuilder.create("org.primefaces:primefaces:3.0")), 3);
+    PRIMEFACES_3("Primefaces 3.0",
+            Arrays.asList(DependencyBuilder.create("org.primefaces:primefaces:3.0")), 3),
+	PRIMEFACES_3_4_2("Primefaces 3.4.2",
+         Arrays.asList(DependencyBuilder.create("org.primefaces:primefaces:3.4.2")), 4);
 
     private List<? extends Dependency> dependencies;
 
